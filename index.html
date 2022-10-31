@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto"
+      rel="stylesheet"
+    />
+    <title>Weather APP</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="center">
+      <div class="gradient-border current" id="current">
+      </div>
+      
+      <div class="gradient-border" id="add" dropzone>+</div>
+    </div>
+    
+    <div class="addCity hide" id="addCity">
+      <div class="form__group">
+        <form id="formCity">
+          <input
+            type="text"
+            class="form__input"
+            id="city"
+            placeholder="City"
+            required=""
+          />
+          <label for="city" class="form__label">City</label>
+        </form>
+      </div>
+    </div>
+    <div class="gradient-border " id="capitals">
+      <ul >
+
+      </ul>
+    </div>
+    <script type="module" src="js/app.js"></script>
+  </body>
+</html>
